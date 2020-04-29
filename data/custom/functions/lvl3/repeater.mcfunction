@@ -8,10 +8,10 @@ scoreboard players add @e[type=minecraft:arrow] age 1
 #Mob attacks
 #execute at @e[type=minecraft:arrow,nbt={inGround:0b},scores={age=1..5}] run summon minecraft:creeper ~ ~ ~ {ExplosionRadius:0b,Fuse:0,ignited:1b}
 
-execute at @e[type=minecraft:arrow,nbt={inGround:0b},scores={age=2..10}] run summon minecraft:creeper ~ ~ ~ {ExplosionRadius:5b,Fuse:0,ignited:1b}
+execute at @e[type=minecraft:arrow,nbt={inGround: 0b},scores={age=2..10}] run summon minecraft:creeper ~ ~ ~ {ExplosionRadius: 5b, Fuse: 0, ignited: 1b}
 
 
-execute at @e[type=minecraft:arrow,scores={age=11..}] run summon minecraft:tnt ^ ^ ^-1 {Fuse:0,ignited:1b}
+execute at @e[type=minecraft:arrow,scores={age=11..}] run summon minecraft:tnt ^ ^ ^-1 {Fuse: 0s, ignited: 1b}
 
 kill @e[type=minecraft:arrow,scores={age=50..}]
 #player attacks

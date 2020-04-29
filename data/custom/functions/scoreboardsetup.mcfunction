@@ -67,13 +67,13 @@ scoreboard players set @r[scores={playernumber=0}] playernumber 6
 
 scoreboard objectives add numberofplayers dummy "numberofplayers"
 scoreboard players set global numberofplayers 0
-execute if @a[scores={playernumber=1}] run scoreboard players operation global numberofplayers += 1 math
-execute if @a[scores={playernumber=2}] run scoreboard players operation global numberofplayers += 1 math
-execute if @a[scores={playernumber=3}] run scoreboard players operation global numberofplayers += 1 math
-execute if @a[scores={playernumber=4}] run scoreboard players operation global numberofplayers += 1 math
-execute if @a[scores={playernumber=5}] run scoreboard players operation global numberofplayers += 1 math
-execute if @a[scores={playernumber=6}] run scoreboard players operation global numberofplayers += 1 math
-execute if @a[scores={playernumber=0}] run scoreboard players operation global numberofplayers += 1 math
+execute if entity @a[scores={playernumber=1}] run scoreboard players operation global numberofplayers += 1 math
+execute if entity @a[scores={playernumber=2}] run scoreboard players operation global numberofplayers += 1 math
+execute if entity @a[scores={playernumber=3}] run scoreboard players operation global numberofplayers += 1 math
+execute if entity @a[scores={playernumber=4}] run scoreboard players operation global numberofplayers += 1 math
+execute if entity @a[scores={playernumber=5}] run scoreboard players operation global numberofplayers += 1 math
+execute if entity @a[scores={playernumber=6}] run scoreboard players operation global numberofplayers += 1 math
+execute if entity @a[scores={playernumber=0}] run scoreboard players operation global numberofplayers += 1 math
 
 scoreboard objectives add timeswarped minecraft.custom:minecraft.change_dimension "Times warped"
 scoreboard players set @a timeswarped 0

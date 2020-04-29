@@ -1,5 +1,5 @@
 
-execute at @a run fill ~-20 ~-10 ~-20 ~20 ~7 ~20 minecraft:bedrock replace minecraft:obsidian
+execute at @e run fill ~-200 ~-100 ~-200 ~200 ~7 ~200 minecraft:bedrock replace minecraft:obsidian
 
 kill @e[type=minecraft:armor_stand]
 kill @e[type=minecraft:armor_stand]
