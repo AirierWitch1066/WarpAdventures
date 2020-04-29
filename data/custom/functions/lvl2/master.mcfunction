@@ -8,7 +8,7 @@ bossbar set minecraft:timer players @a
 function custom:timer
 
 #begin the game by summoning the first totem
-execute at @r run summon armor_stand ~3 ~ ~ {Invulnerable:1b,PersistenceRequired:1b,ShowArms:1b,Rotation:[88f],ArmorItems:[{id:"golden_boots",Count:1b},{id:"golden_leggings",Count:1b},{id:"golden_chestplate",Count:1b},{id:"wither_skeleton_skull",Count:1b}],HandItems:[{id:"golden_pickaxe",Count:1b},{id:"golden_axe",Count:1b}],CustomName:"{\"text\":\"totem2\"}",DisabledSlots:2039583,Pose:{LeftArm:[317f,321f,0f],RightArm:[313f,32f,0f]}}
+execute at @r run summon armor_stand ~3 ~ ~ {Invulnerable: 1b, PersistenceRequired: 1b, ShowArms: 1b, Rotation: [88f], ArmorItems: [{id: "golden_boots", Count: 1b}, {id: "golden_leggings", Count: 1b}, {id: "golden_chestplate", Count: 1b}, {id: "wither_skeleton_skull", Count: 1b}], HandItems: [{id: "golden_pickaxe", Count: 1b}, {id: "golden_axe", Count: 1b}], CustomName: "{\"text\":\"totem2\"}", DisabledSlots: 2039583, Pose: {LeftArm: [317f, 321f, 0f], RightArm: [313f, 32f, 0f]}}
 execute at @e[type=minecraft:armor_stand,name=totem2] run setworldspawn ~ ~ ~
 
 playsound minecraft:entity.horse.death ambient @a ~ ~ ~ 300
@@ -91,4 +91,3 @@ schedule function custom:lvl2/endlvl 18600t append
 schedule function custom:lvl2/music1 1t append
 schedule function custom:lvl2/music2 3000t append
 schedule function custom:lvl2/music2 6760t append
-schedule function custom:lvl3/master 20000t append

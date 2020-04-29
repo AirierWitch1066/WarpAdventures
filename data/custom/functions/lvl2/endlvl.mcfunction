@@ -21,7 +21,7 @@ execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~1 ~-1 m
 execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~2 ~-1 minecraft:fire
 execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~1 ~1 minecraft:fire
 execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~2 ~1 minecraft:fire
-execute at @e[type=minecraft:armor_stand,name=totem2] run summon minecraft:item ~-64 ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{title:"8",author:"8",generation:0,resolved:1b,pages:['{"text":"mindnight"}']}}}
+execute at @e[type=minecraft:armor_stand,name=totem2] run summon minecraft:item ~-64 ~ ~ {Item: {id: "minecraft:written_book", Count: 1b, tag: {title: "8", author: "8", generation: 0, resolved: 1b, pages: ['{"text":"mindnight"}']}}}
 
 schedule function custom:lvl2/endlvlmobs 1s append
-schedule function custom:destroyportal 1200t append
+schedule function custom:lvl2/warpcounter 2t append

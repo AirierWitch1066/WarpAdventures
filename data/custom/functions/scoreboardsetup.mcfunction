@@ -77,7 +77,7 @@ execute if entity @a[scores={playernumber=0}] run scoreboard players operation g
 
 scoreboard objectives add timeswarped minecraft.custom:minecraft.change_dimension "Times warped"
 scoreboard players set @a timeswarped 0
-
+scoreboard players set global timeswarped 0
 
 
 scoreboard objectives add lvlstarter dummy "lvlstarter"

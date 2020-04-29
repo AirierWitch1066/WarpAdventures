@@ -11,7 +11,7 @@ bossbar set minecraft:timer players @a
 function custom:timer
 
 #begin the game by summoning the first totem
-execute at @r run summon minecraft:armor_stand ~3 ~ ~ {Invulnerable:1b,NoGravity:1b,ShowArms:1b,Rotation:[91f],ArmorItems:[{id:"golden_boots",Count:1b},{id:"golden_leggings",Count:1b},{id:"golden_chestplate",Count:1b},{id:"wither_skeleton_skull",Count:1b}],HandItems:[{id:"golden_sword",Count:1b},{id:"enchanted_book",Count:1b}],CustomName:"{\"text\":\"totem1\"}",DisabledSlots:2039583,Pose:{Head:[302f,0f,0f],LeftLeg:[0f,0f,343f],RightLeg:[0f,0f,19f],LeftArm:[360f,88f,320f],RightArm:[62f,106f,108f]}}
+execute at @r run summon minecraft:armor_stand ~3 ~ ~ {Invulnerable: 1b, NoGravity: 1b, ShowArms: 1b, Rotation: [91f], ArmorItems: [{id: "golden_boots", Count: 1b}, {id: "golden_leggings", Count: 1b}, {id: "golden_chestplate", Count: 1b}, {id: "wither_skeleton_skull", Count: 1b}], HandItems: [{id: "golden_sword", Count: 1b}, {id: "enchanted_book", Count: 1b}], CustomName: "{\"text\":\"totem1\"}", DisabledSlots: 2039583, Pose: {Head: [302f, 0f, 0f], LeftLeg: [0f, 0f, 343f], RightLeg: [0f, 0f, 19f], LeftArm: [360f, 88f, 320f], RightArm: [62f, 106f, 108f]}}
 
 
 
@@ -74,4 +74,3 @@ schedule function custom:lvl1/endlvl 4700t append
 schedule function custom:lvl1/wave3/master 3000t append
 schedule function custom:lvl1/wave2/master 1700t append
 schedule function custom:lvl1/wave1/master 200t append
-schedule function custom:lvl2/master 6700t append
