@@ -1,7 +1,7 @@
 
 gamerule mobGriefing true
 
-scoreboard players add @e[type=minecraft:arrow] age 1
-execute at @e[type=minecraft:arrow,scores={age=1..},nbt={inGround: 0b},name=BunkerBuster] run summon minecraft:creeper ~ ~1 ~ {ExplosionRadius: 5b, Fuse: 0, ignited: 1b}
+scoreboard players add @e[type=minecraft:arrow,nbt={inGround: 1b}] age 1
+execute at @e[type=minecraft:arrow,scores={age=1..5},nbt={inGround: 1b},name=BunkerBuster] run summon minecraft:creeper ~ ~ ~ {ExplosionRadius: 1b, Fuse: 0, ignited: 1b}
 
-execute if score global timer > 0 math run schedule function custom:lvl2/wave4/arrowexploder 5t append
+execute if score global timer > 0 math run schedule function custom:lvl2/wave4/arrowexploder 1t append

@@ -3,6 +3,7 @@ schedule clear custom:lvl1/endlvl
 schedule clear custom:lvl1/endlvlmobs
 schedule clear custom:lvl1/master
 schedule clear custom:lvl1/music
+schedule clear custom:lvl1/warpcounter
 ##custom:lvl1/bats/
 schedule clear custom:lvl1/bats/bats
 schedule clear custom:lvl1/bats/removebats
@@ -28,6 +29,7 @@ schedule clear custom:lvl2/master
 schedule clear custom:lvl2/music1
 schedule clear custom:lvl2/music2
 schedule clear custom:lvl2/music3
+schedule clear custom:lvl2/warpcounter
 
 ##custom:lvl2/bats/
 schedule clear custom:lvl2/bats/bats

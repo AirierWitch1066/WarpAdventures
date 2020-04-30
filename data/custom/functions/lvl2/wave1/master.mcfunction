@@ -8,10 +8,9 @@ function custom:timer
 
 effect give @a minecraft:glowing 10000 100 true
 
-#playsound minecraft:music_disc.ward ambient @a ~ ~ ~ 3
-#playsound minecraft:block.bell.use block @a ~ ~ ~ 300
-#playsound minecraft:block.bell.resonate block @a ~ ~ ~ 300
-#playsound minecraft:block.end_portal.spawn block @a ~ ~ ~ 300
+playsound minecraft:block.bell.use block @a ~ ~ ~ 300
+playsound minecraft:block.bell.resonate block @a ~ ~ ~ 300
+playsound minecraft:block.end_portal.spawn block @a ~ ~ ~ 300
 
 schedule function custom:lvl2/wave1/minions 20t append
 schedule function custom:lvl2/wave1/minions 200t append

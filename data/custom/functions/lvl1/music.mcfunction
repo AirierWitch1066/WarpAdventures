@@ -1,2 +1,2 @@
 stopsound @a
-playsound music_disc.ward master @a ~ ~ ~ 3
+execute at @r run playsound music_disc.ward master @a ~ ~ ~ 3

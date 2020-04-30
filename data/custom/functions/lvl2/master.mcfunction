@@ -66,7 +66,7 @@ execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~1 ~-1 m
 execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~2 ~-1 minecraft:barrier
 execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~1 ~1 minecraft:barrier
 execute at @e[type=minecraft:armor_stand,name=totem2] run setblock ~-64 ~2 ~1 minecraft:barrier
-
+schedule function custom:lvl2/builder 20t append
 give @a minecraft:oak_planks 128
 give @a minecraft:tripwire_hook 10
 give @a minecraft:string 64
