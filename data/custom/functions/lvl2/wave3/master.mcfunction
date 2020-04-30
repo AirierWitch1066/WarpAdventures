@@ -7,9 +7,9 @@ bossbar set minecraft:timer players @a
 function custom:timer
 
 
-playsound minecraft:block.bell.use block @a ~ ~ ~ 300
-playsound minecraft:block.bell.resonate block @a ~ ~ ~ 300
-playsound minecraft:block.end_portal.spawn block @a ~ ~ ~ 300
+#playsound minecraft:block.bell.use block @a ~ ~ ~ 300
+#playsound minecraft:block.bell.resonate block @a ~ ~ ~ 300
+#playsound minecraft:block.end_portal.spawn block @a ~ ~ ~ 300
 
 
 schedule function custom:lvl2/wave3/minions 20t append

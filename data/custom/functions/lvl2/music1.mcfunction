@@ -1,1 +1,2 @@
-playsound minecraft:music_disc.stal ambient @r ~ ~ ~ 3
+stopsound @a
+playsound minecraft:music_disc.stal ambient @a ~ ~ ~ 3

@@ -1,1 +1,2 @@
-playsound minecraft:music.creative ambient @r ~ ~ ~ 3
+stopsound @a
+playsound minecraft:music_disc.wait ambient @a ~ ~ ~ 3

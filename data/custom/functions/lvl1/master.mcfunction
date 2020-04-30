@@ -1,5 +1,5 @@
 #timer setup
-
+stopsound @a
 bossbar add minecraft:timer "Objective: Survive"
 bossbar set minecraft:timer name "Objective: Survive"
 scoreboard players set global timer 200
@@ -69,7 +69,7 @@ execute at @e[type=minecraft:armor_stand,name=totem1] run setblock ~-64 ~1 ~-1 m
 execute at @e[type=minecraft:armor_stand,name=totem1] run setblock ~-64 ~2 ~-1 minecraft:barrier
 execute at @e[type=minecraft:armor_stand,name=totem1] run setblock ~-64 ~1 ~1 minecraft:barrier
 execute at @e[type=minecraft:armor_stand,name=totem1] run setblock ~-64 ~2 ~1 minecraft:barrier
- 
+function custom:lvl1/music
 schedule function custom:lvl1/endlvl 4700t append
 schedule function custom:lvl1/wave3/master 3000t append
 schedule function custom:lvl1/wave2/master 1700t append

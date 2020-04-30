@@ -88,6 +88,6 @@ schedule function custom:lvl2/wave3/master 15000t append
 schedule function custom:lvl2/wave4/master 16700t append
 schedule function custom:lvl2/wave5/master 17400t append
 schedule function custom:lvl2/endlvl 18600t append
-schedule function custom:lvl2/music1 1t append
-schedule function custom:lvl2/music2 3000t append
-schedule function custom:lvl2/music2 6760t append
+function custom:lvl2/music1
+schedule function custom:lvl2/music2 4800t append
+schedule function custom:lvl2/music3 12002t append

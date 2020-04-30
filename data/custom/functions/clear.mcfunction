@@ -2,7 +2,7 @@
 schedule clear custom:lvl1/endlvl
 schedule clear custom:lvl1/endlvlmobs
 schedule clear custom:lvl1/master
-schedule clear custom:lvl1/single
+schedule clear custom:lvl1/music
 ##custom:lvl1/bats/
 schedule clear custom:lvl1/bats/bats
 schedule clear custom:lvl1/bats/removebats
@@ -25,7 +25,10 @@ schedule clear custom:lvl1/wave3/minions
 schedule clear custom:lvl2/endlvl
 schedule clear custom:lvl2/endlvlmobs
 schedule clear custom:lvl2/master
-schedule clear custom:lvl2/single
+schedule clear custom:lvl2/music1
+schedule clear custom:lvl2/music2
+schedule clear custom:lvl2/music3
+
 ##custom:lvl2/bats/
 schedule clear custom:lvl2/bats/bats
 schedule clear custom:lvl2/bats/removebats
@@ -55,7 +58,7 @@ schedule clear custom:lvl2/wave5/minions
 schedule clear custom:lvl3/endlvl
 schedule clear custom:lvl3/repeater
 schedule clear custom:lvl3/master
-schedule clear custom:lvl3/music.mcfunction
+schedule clear custom:lvl3/music
 ##custom:lvl3/bats/
 schedule clear custom:lvl3/bats/bats
 schedule clear custom:lvl3/bats/removebats
