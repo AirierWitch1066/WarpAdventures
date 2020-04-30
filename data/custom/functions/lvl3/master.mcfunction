@@ -25,11 +25,11 @@ give @a minecraft:netherite_helmet
 give @a minecraft:elytra
 give @a minecraft:netherite_leggings
 give @a minecraft:netherite_boots
-give @a minecraft:arrow 10
+give @a minecraft:arrow 64
 effect give @a minecraft:jump_boost 10000 3 true
 effect give @a minecraft:absorption 10000 14 true
 
-execute at @r run summon minecraft:armor_stand ~3 ~ ~ {Invulnerable:1b,NoGravity:1b,ShowArms:1b,Rotation:[91f],ArmorItems:[{id:"netherite_boots",Count:1b},{id:"netherite_leggings",Count:1b},{id:"netherite_chestplate",Count:1b},{id:"wither_skeleton_skull",Count:1b}],HandItems:[{id:"netherite_sword",Count:1b},{id:"enchanted_book",Count:1b}],CustomName:"{\"text\":\"totem3\"}",DisabledSlots:2039583,Pose:{Head:[302f,0f,0f],LeftLeg:[0f,0f,343f],RightLeg:[0f,0f,19f],LeftArm:[360f,88f,320f],RightArm:[62f,106f,108f]}}
+execute at @r run summon minecraft:armor_stand ~3 ~ ~ {Invulnerable: 1b, NoGravity: 1b, ShowArms: 1b, Rotation: [91f], ArmorItems: [{id: "netherite_boots", Count: 1b}, {id: "netherite_leggings", Count: 1b}, {id: "netherite_chestplate", Count: 1b}, {id: "wither_skeleton_skull", Count: 1b}], HandItems: [{id: "netherite_sword", Count: 1b}, {id: "enchanted_book", Count: 1b}], CustomName: "{\"text\":\"totem3\"}", DisabledSlots: 2039583, Pose: {Head: [302f, 0f, 0f], LeftLeg: [0f, 0f, 343f], RightLeg: [0f, 0f, 19f], LeftArm: [360f, 88f, 320f], RightArm: [62f, 106f, 108f]}}
 
 playsound minecraft:entity.horse.death ambient @a ~ ~ ~ 300
 playsound minecraft:entity.ghast.hurt ambient @a ~ ~ ~ 300

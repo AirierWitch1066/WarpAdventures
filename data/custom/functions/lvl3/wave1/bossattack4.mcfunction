@@ -10,9 +10,7 @@ execute at @e[type=minecraft:giant] run schedule function custom:lvl3/wave1/boss
 
 schedule function custom:lvl3/wave1/bossheal 1t append
 schedule function custom:lvl3/wave1/bossheal 50t append
-schedule function custom:lvl3/wave1/bossheal 100t append
 schedule function custom:lvl3/wave1/bossheal 150t append
-schedule function custom:lvl3/wave1/bossheal 200t append
 schedule function custom:lvl3/wave1/bossheal 250t append
 
 give @a minecraft:firework_rocket 30
