@@ -43,7 +43,7 @@ execute at @e[type=minecraft:armor_stand,name=totem3] run setblock ~-64 ~1 ~-1 m
 execute at @e[type=minecraft:armor_stand,name=totem3] run setblock ~-64 ~2 ~-1 minecraft:fire
 execute at @e[type=minecraft:armor_stand,name=totem3] run setblock ~-64 ~1 ~1 minecraft:fire
 execute at @e[type=minecraft:armor_stand,name=totem3] run setblock ~-64 ~2 ~1 minecraft:fire
-execute at @e[type=minecraft:armor_stand,name=totem3] run summon minecraft:item ~-64 ~ ~ {Item: {id: "minecraft:written_book", Count: 1b, tag: {title: "8", author: "8", generation: 0, resolved: 1b, pages: ['{"text":"bridges"}']}}}
+execute at @e[type=minecraft:armor_stand,name=totem3] run summon minecraft:item ~-64 ~ ~ {Item: {id: "minecraft:written_book", Count: 1b, tag: {title: "8", author: "8", generation: 0, resolved: 1b, pages: ['{"text":"retro"}']}}}
 
 schedule function custom:lvl3/warpcounter 2t append
 stopsound @a

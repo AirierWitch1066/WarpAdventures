@@ -83,6 +83,9 @@ scoreboard players set global timeswarped 0
 scoreboard objectives add lvlstarter dummy "lvlstarter"
 scoreboard players set @a lvlstarter 0
 
+scoreboard objectives add target dummy "target"
+scoreboard players set @a target 0
+
 execute if score global numberofplayers > 6 math run say "There are too many players. The maximum number of players is six."
 execute if score global numberofplayers > 6 math run function custom:reset
 execute if score global numberofplayers > 6 math run function custom:unreadyplayers

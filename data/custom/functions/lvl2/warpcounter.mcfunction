@@ -7,7 +7,6 @@ execute if score global timer = 0 math run execute if score global timeswarped <
 
 
 execute if score global timeswarped = global numberofplayers run function custom:destroyportal
-execute if score global timeswarped = global numberofplayers run schedule function custom:spreadplayers 2t append
 execute if score global timeswarped = global numberofplayers run schedule function custom:lvl3/master 200t append
 execute if score global timeswarped = global numberofplayers run scoreboard players set global timeswarped 0
 

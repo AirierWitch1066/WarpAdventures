@@ -25,7 +25,7 @@ give @a minecraft:netherite_helmet
 give @a minecraft:elytra
 give @a minecraft:netherite_leggings
 give @a minecraft:netherite_boots
-give @a minecraft:arrow 64
+give @a minecraft:arrow 3
 effect give @a minecraft:jump_boost 10000 3 true
 effect give @a minecraft:absorption 10000 14 true
 
